@@ -14,6 +14,7 @@ public class Main_Class {
 
     private static int operator(int left, int right, String operator ){
         int result = 0;
+        System.out.println("HI");
         switch (operator){
             case "+":
                 result = left + right;
